@@ -1,0 +1,30 @@
+{
+  "name": "google-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvinek01/google-books.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvinek01/google-books/issues"
+  },
+  "homepage": "https://github.com/irvinek01/google-books#readme",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.16.3",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.12.9"
+  }
+}
