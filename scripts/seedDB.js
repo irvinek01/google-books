@@ -6,6 +6,7 @@ db.connect();
 
 const bookSeed = [
   {
+    id: "O53jCwAAQBAJ",
     title: "The Dead Zone",
     authors: ["Stephen King"],
     description:
@@ -15,13 +16,24 @@ const bookSeed = [
     link: "http://books.google.com/books?id=O53jCwAAQBAJ&dq=The+Dead+Zone&hl=&source=gbs_api",
   },
   {
+    id: "f2ieoAEACAAJ",
     title: "The Hunger Games",
     authors: ["Suzanne Collins"],
     description:
-      "Set in a dark vision of the near future, a terrifying reality TV show is taking place. Twelve boys and twelve girls are forced to appear in a live event called The Hunger Games. There is only one rule: kill or be killed. When sixteen-year-old Katniss Everdeen steps forward to take her younger sister's place in the games, she sees it as a death sentence. But Katniss has been close to death before. For her, survival is second nature.",
+    "First in the ground-breaking HUNGER GAMES trilogy. Set in a dark vision of the near future, a terrifying reality TV show is taking place. Twelve boys and twelve girls are forced to appear in a live event called The Hunger Games. There is only one rule: kill or be killed. When sixteen-year-old Katniss Everdeen steps forward to take her younger sister's place in the games, she sees it as a death sentence. But Katniss has been close to death before. For her, survival is second nature.",
     image:
-      "http://books.google.com/books/content?id=sazytgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    link: "http://books.google.com/books?id=sazytgAACAAJ&dq=title:The+Hunger+Games&hl=&source=gbs_api",
+      "http://books.google.com/books/content?id=f2ieoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    link: "http://books.google.com/books?id=f2ieoAEACAAJ&dq=HungerGames&hl=&source=gbs_api",
+  },
+  {
+    id: "J-YwDxwV9Q8C",
+    title: "I Am Number Four",
+    authors: ["Pittacus Lore"],
+    description:
+      "The first book of the #1 New York Times bestselling series and the inspiration for the hit movie from Dreamworks! John Smith seems like an ordinary teenager, living a normal life with his guardian Henri in Paradise, Ohio. But for John, keeping a low profile is essential, because he is not an ordinary teenager. He’s an alien from the planet Lorien, and he’s on the run. A group of evil aliens from the planet Mogadore, who destroyed his world, are hunting anyone who escaped. Nine Loric children were sent to Earth to live in hiding until they grew up and developed their Legacies, powers that would help them fight back—and help them save us. Three of them are now dead. John is Number Four, and he knows he’s next…. Michael Bay, director of Transformers, raved: “Number Four is a hero for this generation.” This epic story is perfect for fans of action-packed science fiction like The 5th Wave series by Rick Yancey, The Maze Runner series by James Dashner, and Orson Scott Card’s Ender’s Game. The battle for Earth’s survival wages on. Read all of the books: #2: The Power of Six, #3: The Rise of Nine, #4: The Fall of Five, #5: The Revenge of Seven, #6: The Fate of Ten, and #7: United as One. Don’t miss the first book in the brand-new I Am Number Four spin-off series: Generation One.",
+    image:
+      "http://books.google.com/books/content?id=J-YwDxwV9Q8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    link: "https://play.google.com/store/books/details?id=J-YwDxwV9Q8C&source=gbs_api",
   },
 ];
 
