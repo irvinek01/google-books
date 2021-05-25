@@ -20,7 +20,7 @@ const bookSeed = [
     title: "The Hunger Games",
     authors: ["Suzanne Collins"],
     description:
-    "First in the ground-breaking HUNGER GAMES trilogy. Set in a dark vision of the near future, a terrifying reality TV show is taking place. Twelve boys and twelve girls are forced to appear in a live event called The Hunger Games. There is only one rule: kill or be killed. When sixteen-year-old Katniss Everdeen steps forward to take her younger sister's place in the games, she sees it as a death sentence. But Katniss has been close to death before. For her, survival is second nature.",
+      "First in the ground-breaking HUNGER GAMES trilogy. Set in a dark vision of the near future, a terrifying reality TV show is taking place. Twelve boys and twelve girls are forced to appear in a live event called The Hunger Games. There is only one rule: kill or be killed. When sixteen-year-old Katniss Everdeen steps forward to take her younger sister's place in the games, she sees it as a death sentence. But Katniss has been close to death before. For her, survival is second nature.",
     image:
       "http://books.google.com/books/content?id=f2ieoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
     link: "http://books.google.com/books?id=f2ieoAEACAAJ&dq=HungerGames&hl=&source=gbs_api",
@@ -34,6 +34,36 @@ const bookSeed = [
     image:
       "http://books.google.com/books/content?id=J-YwDxwV9Q8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
     link: "https://play.google.com/store/books/details?id=J-YwDxwV9Q8C&source=gbs_api",
+  },
+  {
+    id: "JAseBBv3tUwC",
+    title: "The Power of Six",
+    authors: ["Pittacus Lore"],
+    description:
+      "The second book of the #1 New York Times bestselling I Am Number Four series! In the beginning, nine aliens left their home planet Lorien when it fell under attack by the evil Mogadorians. They scattered on Earth and went into hiding. They look like ordinary teenagers but have extraordinary powers. The Mogs have come for them. They killed Number One in Malaysia, Number Two in England, and Number Three in Kenya. They tried to get John Smith, Number Four, in Ohio—but they failed. Now John has joined forces with Number Six, and they are on the run. But they are not alone. Already John and Six have inspired Marina, Number Seven, who has been hiding in Spain. She’s been following the news of what’s happening, and she’s certain this is the sign she’s been waiting for. It’s time to come together. Michael Bay, director of Transformers, raved: “Number Four is a hero for this generation.” This epic story is perfect for fans of action-packed science fiction like The Fifth Wave series by Rick Yancey, The Maze Runner series by James Dashner, and Orson Scott Card’s Ender’s Game. The battle for Earth’s survival wages on. Don’t miss the rest of the series: #3: The Rise of Nine, #4: The Fall of Five, #5: The Revenge of Seven, #6: The Fate of Ten, and #7: United as One. Don’t miss the first book in the brand-new I Am Number Four spin-off series: Generation One.",
+    image:
+      "http://books.google.com/books/content?id=JAseBBv3tUwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    link: "https://play.google.com/store/books/details?id=JAseBBv3tUwC&source=gbs_api",
+  },
+  {
+    id: "0nGcngEACAAJ",
+    title: "Tales from Grimm",
+    authors: ["Wanda Gág", "Wilhelm Grimm", "Jacob Grimm"],
+    description:
+      'In "Tales from Grimm" readers will find Wanda Gag\'s touch on timeless stories like "Hansel and Gretel," "The Musicians of Bremen," "Rapunzel," and others.',
+    image:
+      "http://books.google.com/books/content?id=0nGcngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    link: "http://books.google.com/books?id=0nGcngEACAAJ&dq=Grimm&hl=&source=gbs_api",
+  },
+  {
+    id: "GfMSW5w3NTwC",
+    title: "The Twilight Saga Complete Collection",
+    authors: ["Stephenie Meyer"],
+    description:
+      'This stunning set, which includes Twilight, New Moon, Eclipse, Breaking Dawn, and The Short Second Life of Bree Tanner: An Eclipse Novella, is the perfect gift for fans of the bestselling vampire love story. Whether you`re Team Edward or Team Jacob, fall in love with the Twilight series all over again with this beautiful complete collection! Deeply romantic and extraordinarily suspenseful, The Twilight Saga captures the struggle between defying our instincts and satisfying our desires. Experience the entire breathtaking love story with this perfect gift for new and longtime fans alike. It`s here! #1 bestselling author Stephenie Meyer makes a triumphant return to the world of Twilight with the highly anticipated companion, Midnight Sun: the iconic love story of Bella and Edward told from the vampire`s point of view. "People do not want to just read Meyer`s books; they want to climb inside them and live there." -- Time "A literary phenomenon." -- The New York Times',
+    image:
+      "http://books.google.com/books/content?id=GfMSW5w3NTwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+    link: "https://play.google.com/store/books/details?id=GfMSW5w3NTwC&source=gbs_api",
   },
 ];
 
