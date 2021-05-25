@@ -9,9 +9,9 @@ function Navbar() {
         Google Books
       </Link>
       <Link exact="exact" to="/">
-      <div>
-        <img src={Icon} alt="icon" />
-      </div>
+        <div>
+          <img src={Icon} alt="icon" />
+        </div>
       </Link>
       <ul className="navbar-nav flex-col">
         <NavItems exact to="/">

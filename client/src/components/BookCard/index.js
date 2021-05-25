@@ -5,10 +5,8 @@ function BookCard({ book, handleSave, handleDelete }) {
   } else {
     authors = "Not specified";
   }
-  let description;
-  if (description) {
-    description = book.description;
-  } else {
+  let description = book.description;
+  if (!description) {
     description = "Not available";
   }
 
