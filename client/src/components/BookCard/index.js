@@ -1,5 +1,17 @@
 function BookCard({ book, handleSave, handleDelete }) {
-  const authors = book.authors.join(", ");
+  let authors = book.authors;
+  if (authors) {
+    authors = book.authors.join(", ");
+  } else {
+    authors = "Not specified";
+  }
+  let description;
+  if (description) {
+    description = book.description;
+  } else {
+    description = "Not available";
+  }
+
   return (
     <div className="card bg-primary mb-5">
       <div className="card-header bg-primary text-light border-light">
@@ -21,7 +33,7 @@ function BookCard({ book, handleSave, handleDelete }) {
                 <h4>Description:</h4>
               </div>
               <div className="col-12">
-                <p>{book.description}</p>
+                <p>{description}</p>
               </div>
               <div className="col-12 d-flex justify-content-center">
                 <a

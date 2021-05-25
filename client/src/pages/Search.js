@@ -13,22 +13,24 @@ function Search() {
 
   async function searchBooks(e) {
     e.preventDefault();
-    const searchResult = await API.searchBooksAPI(state.searchTerm.trim());
-    const books = searchResult.data.items.map((book) => {
-      const bookData = {
-        id: book.id,
-        title: book.volumeInfo.title,
-        authors: book.volumeInfo.authors,
-        description: book.volumeInfo.description,
-        image: "https://via.placeholder.com/150",
-        link: book.volumeInfo.infoLink,
-      };
-      if (book.volumeInfo.imageLinks) {
-        bookData.image = book.volumeInfo.imageLinks.thumbnail;
-      }
-      return bookData;
-    });
-    setState({ searchTerm: "", books });
+
+      const searchResult = await API.searchBooksAPI(state.searchTerm.trim());
+      const books = searchResult.data.items.map((book) => {
+        const bookData = {
+          id: book.id,
+          title: book.volumeInfo.title,
+          authors: book.volumeInfo.authors,
+          description: book.volumeInfo.description,
+          image:
+            book.volumeInfo.imageLinks.thumbnail ||
+            "https://via.placeholder.com/150",
+          link: book.volumeInfo.infoLink,
+        };
+        return bookData;
+      });
+      setState({ searchTerm: "", books });
+      console.log(state.searchTerm);
+
   }
 
   function handleInputChange(e) {
